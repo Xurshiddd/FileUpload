@@ -1,6 +1,6 @@
 <?php
 
-namespace Xurshid\Attachment\Listeners;
+namespace Xurshiddd\LaravelAttachment\Listeners;
 
 use Xurshid\Attachment\Events\AttachmentEvent;
 use Xurshid\Attachment\Services\AttachmentService;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Xurshid\Attachment;
+namespace Xurshiddd\LaravelAttachment;
 
 use Illuminate\Support\ServiceProvider;
 

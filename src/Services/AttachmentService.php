@@ -1,15 +1,19 @@
 <?php
 
-namespace Xurshid\Attachment\Services;
+namespace Xurshiddd\LaravelAttachment\Services;
 
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Database\Eloquent\Relations\MorphOne;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 use Illuminate\Database\Eloquent\Relations\MorphToMany;
+namespace Xurshiddd\LaravelAttachment\Models;
 
-final class AttachmentService
-{
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+
+class Attachment extends Model
+final class AttachmentService{
     public function uploadFile(
         array $files,
         MorphOne|MorphMany|MorphToMany|null $relation = null,

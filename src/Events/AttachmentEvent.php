@@ -1,6 +1,6 @@
 <?php
 
-namespace Xurshid\Attachment\Events;
+namespace Xurshiddd\LaravelAttachment\Events;
 
 use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Queue\SerializesModels;

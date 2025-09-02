@@ -1,6 +1,6 @@
 {
     "name": "xurshiddd/laravel-attachment",
-    "description": "bu kutubxona orqali fayllaringizni onson yuklashingiz mumkun",
+    "description": "Bu kutubxona orqali fayllaringizni oson yuklashingiz mumkin",
     "type": "library",
     "license": "MIT",
     "autoload": {
@@ -11,7 +11,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Xurshid\\Attachment\\AttachmentServiceProvider"
+                "Xurshiddd\\LaravelAttachment\\AttachmentServiceProvider"
             ]
         }
     },
