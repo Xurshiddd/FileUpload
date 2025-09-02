@@ -2,8 +2,8 @@
 
 namespace Xurshiddd\LaravelAttachment\Listeners;
 
-use Xurshid\Attachment\Events\AttachmentEvent;
-use Xurshid\Attachment\Services\AttachmentService;
+use Xurshiddd\LaravelAttachment\Events\AttachmentEvent;
+use Xurshiddd\LaravelAttachment\Services\AttachmentService;
 use Illuminate\Support\Arr;
 
 class AttachmentListener
