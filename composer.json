@@ -1,0 +1,25 @@
+{
+    "name": "xurshiddd/laravel-attachment",
+    "description": "bu kutubxona orqali fayllaringizni onson yuklashingiz mumkun",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Xurshiddd\\LaravelAttachment\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Xurshid\\Attachment\\AttachmentServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Xurshiddd",
+            "email": "marifovxurshid800@gmail.com"
+        }
+    ],
+    "require": {}
+}
